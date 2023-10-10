@@ -1,0 +1,86 @@
+﻿@model Casino.Models.ViewModel.CrearActualizarModeloEmpleado
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Empleado</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Empleados.Nombre" class="control-label"></label>
+                <input asp-for="Empleados.Nombre" class="form-control" />
+                <span asp-validation-for="Empleados.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empleados.Apellido" class="control-label"></label>
+                <input asp-for="Empleados.Apellido" class="form-control" />
+                <span asp-validation-for="Empleados.Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Empleados.Identificacion" class="control-label"></label>
+                <input asp-for="Empleados.Identificacion" class="form-control" />
+                <span asp-validation-for="Empleados.Identificacion" class="text-danger"></span>
+            </div>
+            <div class="form-group row g-3 align-items-center">
+                <div class="col-md-4">
+                    <label asp-for="Empleados.Identificacion" class="control-label">Tipo</label>
+                </div>
+                <div class="col-md-8">
+                    <select asp-for="Empleados.Identificacion" class="form-control" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="C.C">C.C</option>
+                        <option value="NIT">NIT</option>
+                        <option value="C.E">C.E</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row g-3 align-items-center">
+                <div class="col-md-4">
+                    <label asp-for="Empleados.IdTipoEmpleado" class="control-label">Tipo de funcionario</label>
+                </div>
+                <div class="col-md-8">
+                    <select asp-for="Empleados.IdTipoEmpleado" class="form-control" required>
+                        <option value="">Seleccione una opción</option>
+                        @foreach (var item in Model.ListTipoEmpleados)
+                        {
+                            <option value="@item.Id">@item.Nombre</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="form-group row g-3 align-items-center">
+                <div class="col-md-4">
+                    <label asp-for="Empleados.IdGrupoE" class="control-label">Grupo de funcionario</label>
+                </div>
+                <div class="col-md-8">
+                    <select asp-for="Empleados.IdGrupoE" class="form-control" required>
+                        <option value="">Seleccione una opción</option>
+                        @foreach (var item in Model.ListGrupoEmpleados)
+                        {
+                            <option value="@item.Id">@item.NombreGrupo</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Empleados.Interno" /> @Html.DisplayNameFor(model => model.Empleados.Interno)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

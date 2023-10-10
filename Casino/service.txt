@@ -1,0 +1,10 @@
+
+            services.AddScoped<IUserService, UserService>();
+
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/Users/Login";
+                    options.ExpireTimeSpan = TimeSpan.FromMinutes(90);
+
+                });
