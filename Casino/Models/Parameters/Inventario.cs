@@ -15,7 +15,7 @@ namespace Casino.Models.Parameters
         public int Stock { get; set; }
 
         [ForeignKey("UnidadMedidas")]
-        public string IdUnidadMedida { get; set; }
+        public int IdUnidadMedida { get; set; }
         public float Cantidad { get; set; }
 
         [ForeignKey("Inventarios")]

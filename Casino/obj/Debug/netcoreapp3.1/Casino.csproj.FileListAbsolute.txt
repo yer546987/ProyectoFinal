@@ -158,8 +158,6 @@ C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\R
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\TipoEmpleado\Details.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\TipoEmpleado\Edit.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\TipoEmpleado\Index.cshtml.g.cs
-C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Users\Login.cshtml.g.cs
-C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Users\Register.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\CostoCasino\Create.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\CostoCasino\Delete.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\CostoCasino\Details.cshtml.g.cs
@@ -190,3 +188,13 @@ C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\R
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\GrupoEmpleado\Details.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\GrupoEmpleado\Edit.cshtml.g.cs
 C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\GrupoEmpleado\Index.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Inventario\Create.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Inventario\Delete.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Inventario\Details.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Inventario\Edit.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\Inventario\Index.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\UnidadMedidas\Create.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\UnidadMedidas\Delete.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\UnidadMedidas\Details.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\UnidadMedidas\Edit.cshtml.g.cs
+C:\Users\Yeferson Beltran M\source\repos\Casino\Casino\obj\Debug\netcoreapp3.1\Razor\Views\UnidadMedidas\Index.cshtml.g.cs

@@ -33,5 +33,9 @@ namespace Casino.Data
 
         public DbSet<Casino.Models.Parameters.TipoComida> TipoComida { get; set; }
 
+        public DbSet<Casino.Models.Parameters.Inventario> Inventario { get; set; }
+
+        public DbSet<CasinoApp.Models.Parameters.UnidadMedida> UnidadMedida { get; set; }
+
     }
 }

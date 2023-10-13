@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Casino.Models.Parameters
 {
-    public class Users
+    public class Usuarios
     {
         public string Usuario { get; set; }
         public int Contraseña { get; set; }
